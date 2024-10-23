@@ -16,7 +16,7 @@ axios.get(breeds)
 console.log(random);
 
 // Imprimir por consola todas las imágenes de una raza concreta.
-const divImages = document.querySelector("#divUsers")
+const divImages = document.querySelector("#divDogs")
 const elegido = prompt("Elige perro para mostrar imágenes:")
 
 axios.get(`https://dog.ceo/api/breed/${elegido}/images`)
